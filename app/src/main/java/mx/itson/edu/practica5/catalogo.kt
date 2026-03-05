@@ -40,8 +40,11 @@ class catalogo : AppCompatActivity()    {
 
     fun cargarPeliculas() {
 
-
-
+//        var clientes=ArrayList<Cliente>()
+//        clientes.add(Cliente("Javier","Tarjeta",5))
+//        clientes.add(Cliente("Javier1","Tarjeta1",15))
+//        clientes.add(Cliente("Javier2","Tarjeta2",20))
+//        clientes.add(Cliente("Javier3","Tarjeta3",1))
         peliculas.add(Pelicula("Demon Slayer: Kimetsu no Yaiba -To the Hashira Training", R.drawable.demon, R.drawable.demo,  "Kimetsu no Yaiba -To the Hashira Training- proyectará por primera vez en cines el episodio 11 del Arco de la Aldea de los Herreros, mostrando así la conclusión de la feroz batalla entre Tanjiro y la Cuarta Luna Creciente, Hatengu, además de cómo Nezuko logra caminar bajo el sol. Le seguirá el episodio 1 del Arco del Entrenamiento de los Pilares, donde veremos el inicio del entrenamiento de los Pilares para prepararse de cara a la próxima batalla contra Muzan Kibutsuji, que se podrá ver por primera vez.",arrayListOf<Cliente>()))
         peliculas.add(Pelicula("Dune", R.drawable.dune, R.drawable.dune2,"Duna: Parte Dos\" explorará el viaje mítico de Paul Atreides mientras se une con Chani y los Fremen mientras está en un camino de venganza contra los conspiradores que destruyeron a su familia. Enfrentando una elección entre el amor de su vida y el destino del universo conocido, se esfuerza por evitar un futuro terrible que solo él pueda prever.",arrayListOf<Cliente>()))
         peliculas.add(Pelicula("Ghostbusters apocalipsis", R.drawable.ghostbusters, R.drawable.ghostbusters, "Duna: Parte Dos explorará el viaje mítico de Paul Atreides mientras se une con Chani y los Fremen mientras está en un camino de venganza contra los conspiradores que destruyeron a su familia. Enfrentando una elección entre el amor de su vida y el destino del universo conocido, se esfuerza por evitar un futuro terrible que solo él pueda prever.",arrayListOf<Cliente>()))
